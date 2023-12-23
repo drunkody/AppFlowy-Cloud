@@ -119,3 +119,16 @@ environments, including container deployment, networking, volume management, and
 
 Any new contribution is more than welcome in this project!
 If you want to know more about the development workflow or want to contribute, please visit our [contributing guidelines](./doc/CONTRIBUTING.md) for detailed instructions!
+
+##  Errors
+ line 26: psql: command not found
+
+```
+sudo apt-get update
+sudo apt-get install postgresql-client
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+cargo install sqlx-cli
+```
+
